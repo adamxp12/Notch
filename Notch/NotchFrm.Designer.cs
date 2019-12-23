@@ -1,6 +1,6 @@
 ﻿namespace Notch
 {
-    partial class Form1
+    partial class NotchFrm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // NotchFrm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.ControlBox = false;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "NotchFrm";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
+            this.Text = "Notch";
+            this.TopMost = true;
+            this.TransparencyKey = System.Drawing.SystemColors.Control;
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.NotchFrm_Load);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.NotchFrm_Paint);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
