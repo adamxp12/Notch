@@ -46,6 +46,7 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.NotchFrm_Load);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.NotchFrm_Paint);
+            this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.NotchFrm_MouseClick);
             this.ResumeLayout(false);
 
         }

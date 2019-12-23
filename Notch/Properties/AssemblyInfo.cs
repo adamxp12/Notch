@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Notch")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Notch adds the joy of modern smartphones to your Windows desktop")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("adam.lgbt")]
 [assembly: AssemblyProduct("Notch")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
